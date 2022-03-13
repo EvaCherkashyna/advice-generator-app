@@ -27,6 +27,7 @@ font-family: var(--family-h1);
 text-transform: uppercase;
 letter-spacing: 0.3rem;
 font-size: 16px;
+padding: 0;
 
 `
 const SomeAdvice = styled.p`
@@ -35,12 +36,14 @@ font-family: var(--family-quote);
 font-weight: var(--fw-bold);
 font-size: var(--fs-md);
 text-align: center;
+margin:0;
 `
 
 const Card = () => {
     const [change, setChange] = useState('');
     const [number, setNumber] = useState('')
     const [advice, setAdvice] = useState('');
+
 
     useEffect(()=>{
         axios.get('https://api.adviceslip.com/advice')
@@ -55,7 +58,8 @@ const Card = () => {
     <Wrapper className="App">
        <AdviceNumber>Advice #{number}</AdviceNumber>
        <SomeAdvice>"{advice}"</SomeAdvice>
-       <CopyLine text = {advice}></CopyLine>
+       <CopyLine text = {advice} ></CopyLine>
+       
        <ChangeAdvice onClick = {(e)=>setChange(e)}></ChangeAdvice>
     </Wrapper>
   );
