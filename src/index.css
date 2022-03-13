@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
+:root {
+  /* Typography */
+  --family-quote: 'Manrope', sans-serif;
+  --family-h1: 'Roboto Condensed', sans-serif;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  --fs-sm: 14px;
+  --fs-md: 28px;
+  --fw-light: 300;
+  --fw-normal: 600;
+  --fw-bold: 800;
+  /* Other */
+  --radii: 0.5rem ;
+  /* Other */
+  --color-card: hsl(217, 19%, 24%);
+  /* --color-card: hsl(217, 19%, 38%); */
+  --color-ico: hsl(150, 100%, 66%);
+  --color-text: hsl(193, 38%, 86%);
+  --shadow: hsl(150, 100%, 66%) 0 0 2rem;
+}
+body{
+  background-color:hsl(218, 23%, 16%);
+ 
+}
+.svg:hover{
+background-color: aquamarine;
+color: aqua;
 }
