@@ -16,7 +16,7 @@ position: fixed;
 border-radius: 0.2rem;
 text-align: center;
 color:  var(--color-card);
-margin-top: 5rem;
+margin-top: 6.5rem;
 margin-left: 11.4rem;
 `
 const CopyLine = ({text}) => {
