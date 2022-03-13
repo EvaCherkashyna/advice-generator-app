@@ -16,6 +16,10 @@ Click on the two horizontal bars and the advice will be copied to the clipboard.
 
 ![](https://media4.giphy.com/media/l88nh7omJYscWSgeJy/giphy.gif?cid=790b761143ae7a2e61751005ecfea200cfad2d67f3d0865d&rid=giphy.gif&ct=g)
 
+# Demo
+
+You can see my demo : [DEMO](https://evacherkashyna.github.io/advice-generator-app/).
+
 # Download instructions
 
 ![](./readme-for/img2.png)
